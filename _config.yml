@@ -1,0 +1,26 @@
+title: Portal GameLab
+description: Central de Documentação e Diretrizes do Laboratório de Jogos
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+search_enabled: true
+nav_enabled: true
+nav_sort: case_insensitive
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Voltar ao topo"
+favicon: "/assets/images/favicon.ico"
+
+mermaid:
+  version: "10.9.1"
+
+aux_links:
+  "Repositorio no GitHub":
+    - "https://github.com/brenoASantana/gamelab-portal"
+aux_links_new_tab: true
+
+nav_external_links:
+  - title: Projetos GameLab (GitHub)
+    url: https://github.com/GameLab-UERJ

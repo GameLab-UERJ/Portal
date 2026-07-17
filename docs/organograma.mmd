@@ -1,0 +1,37 @@
+graph TD
+    %% Estilização
+    classDef coordGeral fill:#3d2a6d,stroke:#fff,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef eco fill:#9b2915,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef coordProj fill:#2a3f6f,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef lider fill:#1a1a1c,stroke:#c9a43b,stroke-width:1px,color:#fff;
+    classDef membro fill:#f4f1e6,stroke:#333,stroke-width:1px,color:#000;
+
+    COORD[Coordenação Geral]:::coordGeral
+    GECO[Gestão de Ecossistema]:::eco
+
+    %% GESTÃO DE ECOSSISTEMA
+    subgraph GESTAO [Núcleo de Gestão de Ecossistema]
+        COM[Gestão de Comunicação e Marca]:::eco
+        TAL[Gestão de Talentos e Admissão]:::eco
+        MEM[Gestão de Processos e Memória Técnica]:::eco
+    end
+
+    %% ESTRUTURA DE DESENVOLVIMENTO
+    subgraph PROD [Desenvolvimento de Projetos]
+        CP[Coordenação de Projeto]:::coordProj
+
+        LPROG[Liderança de Programação]:::lider
+        LCRIA[Liderança Criativa]:::lider
+        LARTE[Liderança de Arte]:::lider
+
+        CP --> LPROG & LCRIA & LARTE
+
+        LPROG --> PROG[Programadores]:::membro
+        LCRIA --> GD[Design de Jogo e Fases]:::membro & UX[UX e Narrativa]:::membro
+        LARTE --> ART2D[Arte 2D/3D]:::membro & ANIM[Animação]:::membro & UIART[UI Artist]:::membro & AUD[Som e Trilha]:::membro
+    end
+
+    COORD --> GECO
+    COORD --> CP
+
+    GECO --> COM & TAL & MEM

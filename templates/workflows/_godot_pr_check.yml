@@ -1,0 +1,53 @@
+name: 🛡️ Godot Quality Check (PR)
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # ==========================================
+  # JOB 1: O Fiscal de Código (Linter)
+  # ==========================================
+  lint:
+    name: 🧹 Linter (GDScript Toolkit)
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Clonar o repositório
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: 📦 Instalar gdscript-toolkit
+        run: pip install gdscript-toolkit
+
+      - name: 🔎 Rodar gdlint
+        # Vai checar todos os arquivos .gd na pasta. Se estiver fora do padrão, o PR reprova.
+        run: gdlint .
+
+  # ==========================================
+  # JOB 2: O Testador (GUT)
+  # ==========================================
+  test:
+    name: 🧪 Testes Unitários (GUT)
+    runs-on: ubuntu-latest
+    # Usa um container Linux que já tem a Godot 4.2 instalada
+    container:
+      image: barichello/godot-ci:4.2.2
+
+    # Faz o Job 2 esperar o Job 1 terminar e passar
+    needs: lint
+
+    steps:
+      - name: 📥 Clonar o repositório
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Importar Assets da Godot (Cache)
+        # A Godot precisa gerar a pasta .godot antes de testar
+        run: godot --headless --export-pack "Web" /dev/null || true
+
+      - name: 🥊 Rodar Bateria de Testes
+        # Roda o jogo de forma invisível e executa os testes do GUT
+        run: godot --headless -s addons/gut/gut_cmdln.gd -gdir=test/ -ginclude_subdirs
