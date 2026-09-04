@@ -13,6 +13,11 @@
 
 ## 2. Pilares de Design
 
+*[Os Pilares são os pontos essenciais do design. Tudo tem eles como importância. Deve-se escolher no máximo 3 "formas de diversão"]*
+[Artigo explicando cada forma](https://www.gamedeveloper.com/design/fourteen-forms-of-fun)
+<img width="900" height="900" alt="image" src="https://github.com/user-attachments/assets/9bc46ae9-4faf-415d-985a-dd0ed81e1d01" />
+
+
 * **Pilar 1:** [Ex: O sistema de "Erosão da Humanidade" através da morte.]
 * **Pilar 2:** [Ex: Gestão tática de energia vs. regeneração passiva.]
 * **Pilar 3:** [Ex: Combate rítmico onde atacar é a única forma de manter o fluxo de energia.]
