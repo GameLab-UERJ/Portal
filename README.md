@@ -14,6 +14,7 @@ permalink: /
 - [Governanca](./docs/governanca.md)
 - [Engenharia](./docs/engenharia.md)
 - [Projetos](./docs/projetos.md)
+- [GDDs dos Jogos](./docs/gdds.md)
 - [Kit de Templates e Workflows](./docs/kit-templates-workflows.md)
 
 ---
@@ -23,19 +24,20 @@ permalink: /
 
 ---
 
-## 🚀 Repositórios de Projetos (Ativos)
+## 🚀 Projetos Ativos
 
-A documentação específica de cada jogo (GDD, Assets, Stack Técnica) fica armazenada junto com o código-fonte do próprio projeto. Acesse os links abaixo:
+Os GDDs canônicos ficam organizados neste Portal. Os repositórios abaixo concentram o código, os assets e a documentação técnica de cada projeto.
 
 ### 🔄 Ciclo Infinito
 
 - [📂 Repositório Principal](https://github.com/GameLab-UERJ/Ciclo-Infinito)
-- 📕 GDD e arquitetura técnica: consultar a documentação no repositório do projeto.
+- [📕 GDD de Ciclo Infinito](./docs/GDDs/ciclo-infinito/index.md)
+- [📘 Guia técnico e de versionamento](./docs/guide-ciclo-infinito.md)
 
 ### 🍔 Loot & Lunch
 
 - [📂 Repositório Principal](https://github.com/GameLab-UERJ/Loot-Lunch)
-- 📕 GDD e arquitetura técnica: consultar a documentação no repositório do projeto.
+- [📕 GDD de Loot & Lunch](./docs/GDDs/loot-and-lunch/index.md)
 
 ---
 

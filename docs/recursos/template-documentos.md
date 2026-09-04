@@ -23,6 +23,7 @@ Quando usar:
 
 Boas praticas:
 
-1. Versionar o GDD no repositorio do jogo junto com milestones.
-2. Atualizar o GDD a cada mudanca relevante de escopo.
-3. Relacionar issues e PRs aos itens do GDD para rastreabilidade.
+1. Manter o GDD canonico no Portal e atualizar o indice do jogo quando novos documentos forem criados.
+2. Manter no repositorio do jogo a documentacao tecnica de implementacao relacionada ao GDD.
+3. Atualizar o GDD a cada mudanca relevante de escopo.
+4. Relacionar issues e PRs aos itens do GDD para rastreabilidade.
