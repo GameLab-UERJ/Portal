@@ -3,6 +3,7 @@
 title: Core Loop
 nav_parent: Loot & Lunch
 nav_order: 20
+nav_exclude: true
 ---
 
 # Core Loop: Loot & Lunch

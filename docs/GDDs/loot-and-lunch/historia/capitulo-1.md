@@ -3,6 +3,7 @@
 title: Capitulo 1
 nav_parent: Loot & Lunch
 nav_order: 40
+nav_exclude: true
 ---
 
 # Loot & Lunch: Roteiro de Desenvolvimento

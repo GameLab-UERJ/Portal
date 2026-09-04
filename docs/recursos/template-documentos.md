@@ -2,6 +2,7 @@
 title: Templates de Documento
 nav_parent: Kit de Templates e Workflows
 nav_order: 20
+nav_exclude: true
 ---
 
 ## Templates de Documento

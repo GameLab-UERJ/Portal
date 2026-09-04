@@ -2,6 +2,7 @@
 title: Mecanicas Gerais
 nav_parent: Ciclo Infinito
 nav_order: 10
+nav_exclude: true
 ---
 
 # Mecanicas Gerais

@@ -2,6 +2,7 @@
 title: Templates GitHub (PR e Issues)
 nav_parent: Kit de Templates e Workflows
 nav_order: 30
+nav_exclude: true
 ---
 
 ## Templates GitHub (PR e Issues)

@@ -1,6 +1,8 @@
 ---
 title: Onboarding
+nav_parent: Governanca
 nav_order: 15
+nav_exclude: true
 ---
 
 ## 👋 Bem-vindo(a) ao GameLab

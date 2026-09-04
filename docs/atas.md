@@ -2,6 +2,7 @@
 title: Atas
 nav_parent: Governanca
 nav_order: 110
+nav_exclude: true
 has_children: true
 ---
 

@@ -2,6 +2,7 @@
 title: Workflows de Automacao
 nav_parent: Kit de Templates e Workflows
 nav_order: 40
+nav_exclude: true
 ---
 
 ## Workflows de Automacao

@@ -2,6 +2,7 @@
 title: Docs Exports
 nav_parent: Engenharia
 nav_order: 80
+nav_exclude: true
 ---
 
 ## 🏷️ Guia de Documentação: Variáveis `@export`
@@ -28,22 +29,22 @@ No Godot 4, a documentação gerada pelo próprio código é feita utilizando do
 
 A Godot suporta as tags nativas de BBCode dentro dos comentários `##`. Utilize-as para criar uma hierarquia de leitura elegante no painel da direita.
 
-| Tag BBCode | O que faz no Inspector | Exemplo de Uso |
-| :--- | :--- | :--- |
-| `[br]` | Quebra de linha. | `## Vida máxima.[br]Padrão é 100.` |
-| `[b]...[/b]` | Deixa o texto em **negrito**. | `## [b]Aviso:[/b] Não coloque zero.` |
-| `[i]...[/i]` | Deixa o texto em *itálico*. | `## Afeta o [i]pacing[/i] do jogo.` |
+| Tag BBCode         | O que faz no Inspector                           | Exemplo de Uso                          |
+| :----------------- | :----------------------------------------------- | :-------------------------------------- |
+| `[br]`             | Quebra de linha.                                 | `## Vida máxima.[br]Padrão é 100.`      |
+| `[b]...[/b]`       | Deixa o texto em **negrito**.                    | `## [b]Aviso:[/b] Não coloque zero.`    |
+| `[i]...[/i]`       | Deixa o texto em *itálico*.                      | `## Afeta o [i]pacing[/i] do jogo.`     |
 | `[code]...[/code]` | Destaca como bloco de `código` com fundo escuro. | `## Dispara o sinal [code]died[/code].` |
 
 ---
 
 ## ⚖️ 3. O Que Fazer e o Que Evitar
 
-| ✅ Faça (Boas Práticas) | ❌ Evite (Más Práticas) |
-| :--- | :--- |
-| **Focar no Impacto:** Explique como a variável altera a experiência ou o *gameplay*. | **Explicar Lógica Interna:** O designer não quer saber se você usou *lerp* ou matrizes. |
-| **Declarar Tipagem e Padrão:** Sempre use `: Tipo` e atribua um `= valor_padrao` seguro. | **Redundância:** Não repita o nome (Ex: `## Velocidade: A velocidade.`) |
-| **Limitar Valores Inseguros:** Use `@export_range` para evitar que digitem números que quebrem a física. | **Resumos Gigantes:** A primeira linha deve caber na tela sem o usuário ter que rolar. |
+| ✅ Faça (Boas Práticas)                                                                                   | ❌ Evite (Más Práticas)                                                                  |
+| :------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- |
+| **Focar no Impacto:** Explique como a variável altera a experiência ou o *gameplay*.                     | **Explicar Lógica Interna:** O designer não quer saber se você usou *lerp* ou matrizes. |
+| **Declarar Tipagem e Padrão:** Sempre use `: Tipo` e atribua um `= valor_padrao` seguro.                 | **Redundância:** Não repita o nome (Ex: `## Velocidade: A velocidade.`)                 |
+| **Limitar Valores Inseguros:** Use `@export_range` para evitar que digitem números que quebrem a física. | **Resumos Gigantes:** A primeira linha deve caber na tela sem o usuário ter que rolar.  |
 
 ---
 

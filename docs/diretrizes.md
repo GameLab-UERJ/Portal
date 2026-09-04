@@ -2,6 +2,7 @@
 title: Diretrizes
 nav_parent: Governanca
 nav_order: 30
+nav_exclude: true
 ---
 
 ## ⚖️ Diretrizes do GameLab

@@ -2,6 +2,7 @@
 title: "Cargos e Níveis"
 nav_parent: Governanca
 nav_order: 40
+nav_exclude: true
 ---
 
 ## 🏛️ GameLab: Definições de Cargos e Níveis
@@ -30,12 +31,12 @@ A definição oficial de cargos e níveis de atuação serve para:
 
 O organograma do GameLab permite a acumulação de cargos por um mesmo membro, desde que as responsabilidades estejam claramente divididas, a carga horária seja compatível e haja aprovação prévia da Coordenação.
 
-| Área Técnica | Área de Design | Área Artística e Sonora |
-| :--- | :--- | :--- |
-| 💻 Programador(a) | 🎲 Game Designer | 🎨 Artista 2D |
-| | 📐 Level Designer | 🎬 Animador(a) |
-| | 📱 UI/UX Designer | 🔊 Sound Designer |
-| | | 🎵 Músico(a) |
+| Área Técnica     | Área de Design   | Área Artística e Sonora |
+| :--------------- | :--------------- | :---------------------- |
+| 💻 Programador(a) | 🎲 Game Designer  | 🎨 Artista 2D            |
+|                  | 📐 Level Designer | 🎬 Animador(a)           |
+|                  | 📱 UI/UX Designer | 🔊 Sound Designer        |
+|                  |                  | 🎵 Músico(a)             |
 
 ---
 

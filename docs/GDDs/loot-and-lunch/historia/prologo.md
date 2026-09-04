@@ -3,6 +3,7 @@
 title: Prologo
 nav_parent: Loot & Lunch
 nav_order: 30
+nav_exclude: true
 ---
 
 # Loot & Lunch: Roteiro de Desenvolvimento

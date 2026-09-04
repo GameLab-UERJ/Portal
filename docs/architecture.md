@@ -2,6 +2,7 @@
 title: Arquitetura
 nav_parent: Engenharia
 nav_order: 60
+nav_exclude: true
 ---
 
 ## 🏗️ Arquitetura do GameLab
@@ -55,11 +56,11 @@ Utilizamos uma abordagem de *Feature Branching*.
 
 A arquitetura de conhecimento do GameLab é baseada em três pilares:
 
-| Tipo | Localização | Objetivo |
-| --- | --- | --- |
-| **Documentação de Código** | `@export` + `##` | Auxiliar o Designer no Inspector da Godot. |
-| **Documentação Técnica** | `docs/TECH_STACK.md` | Detalhar a stack técnica, shaders e plugins. |
-| **Documentação de Processos** | `dox/` | Diretrizes, on-boarding e cultura do laboratório. |
+| Tipo                          | Localização          | Objetivo                                          |
+| ----------------------------- | -------------------- | ------------------------------------------------- |
+| **Documentação de Código**    | `@export` + `##`     | Auxiliar o Designer no Inspector da Godot.        |
+| **Documentação Técnica**      | `docs/TECH_STACK.md` | Detalhar a stack técnica, shaders e plugins.      |
+| **Documentação de Processos** | `dox/`               | Diretrizes, on-boarding e cultura do laboratório. |
 
 ---
 

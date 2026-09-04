@@ -3,6 +3,7 @@
 title: Visao Geral
 nav_parent: Loot & Lunch
 nav_order: 10
+nav_exclude: true
 ---
 
 # Loot and Lunch (Titulo Provisorio)

@@ -2,6 +2,7 @@
 title: Diretrizes Godot
 nav_parent: Engenharia
 nav_order: 70
+nav_exclude: true
 ---
 
 ## 🤖 Diretrizes de Desenvolvimento: Godot Engine

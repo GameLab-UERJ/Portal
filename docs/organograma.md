@@ -2,6 +2,7 @@
 title: Organograma
 nav_parent: Governanca
 nav_order: 80
+nav_exclude: true
 ---
 
 ## Organograma do GameLab

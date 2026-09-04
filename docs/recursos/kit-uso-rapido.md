@@ -2,6 +2,7 @@
 title: Guia de uso rapido
 nav_parent: Kit de Templates e Workflows
 nav_order: 10
+nav_exclude: true
 ---
 
 ## Guia de uso rapido
