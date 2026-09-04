@@ -46,12 +46,12 @@ Os GDDs canônicos ficam organizados neste Portal. Os repositórios abaixo conce
 Para padronizar os jogos do laboratorio com o mesmo nivel de organizacao, use o kit oficial:
 
 - [Kit de Templates e Workflows](./docs/kit-templates-workflows.md)
-- [Template de GDD](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/gdd-template.md)
-- [Template de Pull Request](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/godot_pull_request_template.md)
-- [Issue Template de Bug](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/.github/ISSUE_TEMPLATE/bug_report.md)
-- [Issue Template de Feature](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/.github/ISSUE_TEMPLATE/feature_request.md)
-- [Workflow de PR Check](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/workflows/_godot_pr_check.yml)
-- [Workflow de Release](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/workflows/_release.yaml)
+- [Template de GDD](https://github.com/GameLab-UERJ/Portal/blob/main/templates/gdd-template.md)
+- [Template de Pull Request](https://github.com/GameLab-UERJ/Portal/blob/main/templates/godot_pull_request_template.md)
+- [Issue Template de Bug](https://github.com/GameLab-UERJ/Portal/blob/main/templates/.github/ISSUE_TEMPLATE/bug_report.md)
+- [Issue Template de Feature](https://github.com/GameLab-UERJ/Portal/blob/main/templates/.github/ISSUE_TEMPLATE/feature_request.md)
+- [Workflow de PR Check](https://github.com/GameLab-UERJ/Portal/blob/main/templates/workflows/_godot_pr_check.yml)
+- [Workflow de Release](https://github.com/GameLab-UERJ/Portal/blob/main/templates/workflows/_release.yaml)
 
 ---
 

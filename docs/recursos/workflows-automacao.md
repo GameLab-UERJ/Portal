@@ -14,8 +14,8 @@ Automacoes de qualidade e release para reuso entre jogos do laboratorio.
 
 Workflows disponiveis:
 
-- [PR Check (Godot)](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/workflows/_godot_pr_check.yml)
-- [Release](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/workflows/_release.yaml)
+- [PR Check (Godot)](https://github.com/GameLab-UERJ/Portal/blob/main/templates/workflows/_godot_pr_check.yml)
+- [Release](https://github.com/GameLab-UERJ/Portal/blob/main/templates/workflows/_release.yaml)
 
 Recomendacao de adocao:
 

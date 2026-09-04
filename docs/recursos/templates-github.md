@@ -14,9 +14,9 @@ Padrao de colaboracao para revisao de codigo e registro de demandas.
 
 Templates disponiveis:
 
-- [Template de Pull Request](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/godot_pull_request_template.md)
-- [Issue Template: Bug Report](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/.github/ISSUE_TEMPLATE/bug_report.md)
-- [Issue Template: Feature Request](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/.github/ISSUE_TEMPLATE/feature_request.md)
+- [Template de Pull Request](https://github.com/GameLab-UERJ/Portal/blob/main/templates/godot_pull_request_template.md)
+- [Issue Template: Bug Report](https://github.com/GameLab-UERJ/Portal/blob/main/templates/.github/ISSUE_TEMPLATE/bug_report.md)
+- [Issue Template: Feature Request](https://github.com/GameLab-UERJ/Portal/blob/main/templates/.github/ISSUE_TEMPLATE/feature_request.md)
 
 Recomendacao de adocao:
 

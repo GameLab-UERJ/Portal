@@ -14,7 +14,7 @@ Arquivos para padronizar documentacao tecnica e de design entre jogos.
 
 Disponiveis:
 
-- [GDD Template](https://github.com/brenoASantana/gamelab-portal/blob/main/templates/gdd-template.md)
+- [GDD Template](https://github.com/GameLab-UERJ/Portal/blob/main/templates/gdd-template.md)
 
 Quando usar:
 

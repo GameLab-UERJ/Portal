@@ -49,4 +49,4 @@ graph TD
     GECO --> COM & TAL & MEM
 ```
 
-- [Exibir no viewer do Github](https://github.com/brenoASantana/gamelab-portal/blob/main/docs/organograma.mmd)
+- [Exibir no viewer do Github](https://github.com/GameLab-UERJ/Portal/blob/main/docs/organograma.mmd)
